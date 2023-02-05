@@ -1,5 +1,5 @@
 {% set name = "methodtools" %}
-{% set version = "0.4.5" %}
+{% set version = "0.4.7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 9370156e9036789e98cf0e97355b3be3bcd7cc9e520d1e15893a1407719effb2
+  sha256: e213439dd64cfe60213f7015da6efe5dd4003fd89376db3baa09fe13ec2bb0ba
 
 build:
   number: 0
